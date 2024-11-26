@@ -42,7 +42,7 @@ Below is a tested combination of library versions that are compatible.
 
 Download the ShapeNetCore.v2 using the instructions found in the [README](ShapeNetCore.v2/README.md)
 
-# Run through the jupytr notebook pretraining script:
+# Run through the provided pretraining notebook:
 `pretrain_pointRTD.ipynb` will produce pretraining checkpoints located in `./checkpoints/Pretrain_PointRTD/CR_XX/pointrtd_epoch_XX_CR_XX.pth`
 
 Once you have a satisfactory checkpoint, create a folder `./checkpoints_pointrtd/` and place your checkpoint file within this folder.
