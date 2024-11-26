@@ -1,8 +1,8 @@
-# PointRTD: Replaced Token Denoising for Point Cloud Transformers
+# PointRTD: Replaced Token Denoising for Robust Point Cloud Pretraining
 
 This repository contains the implementation for the paper:
 
-**PointRTD: Replaced Token Denoising as a Pretraining Strategy for Point Cloud Transformers**  
+**PointRTD: Replaced Token Denoising for Robust Point Cloud Pretraining**  
 ![PointRTD Architecture](./README_Assets/pointrtd_architecture.png)
 
 ## Installation
