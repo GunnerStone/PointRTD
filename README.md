@@ -3,8 +3,6 @@
 This repository contains the implementation for the paper:
 
 **PointRTD: Replaced Token Denoising as a Pretraining Strategy for Point Cloud Transformers**  
-_Preprint Abstract:_ PointRTD introduces a novel corruption-reconstruction pretraining framework for 3D point cloud Transformers, outperforming PointMAE in accuracy and training efficiency for tasks like object classification on ModelNet10.
-
 ![PointRTD Architecture](./README_Assets/pointrtd_architecture.png)
 
 ## Installation
