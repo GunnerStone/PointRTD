@@ -1,10 +1,8 @@
-# PointRTD: Replaced Token Denoising for Point Cloud Transformers
+# PointRTD: Replaced Token Denoising for Robust Point Cloud Pretraining
 
 This repository contains the implementation for the paper:
 
-**PointRTD: Replaced Token Denoising as a Pretraining Strategy for Point Cloud Transformers**  
-_Preprint Abstract:_ PointRTD introduces a novel corruption-reconstruction pretraining framework for 3D point cloud Transformers, outperforming PointMAE in accuracy and training efficiency for tasks like object classification on ModelNet10.
-
+**PointRTD: Replaced Token Denoising for Robust Point Cloud Pretraining**  
 ![PointRTD Architecture](./README_Assets/pointrtd_architecture.png)
 
 ## Installation
@@ -44,7 +42,7 @@ Below is a tested combination of library versions that are compatible. Start her
 
 Download the ShapeNetCore.v2 using the instructions found in the [README](ShapeNetCore.v2/README.md)
 
-# Run through the jupytr notebook pretraining script:
+# Run through the provided pretraining notebook:
 `pretrain_pointRTD.ipynb` will produce pretraining checkpoints located in `./checkpoints/Pretrain_PointRTD/CR_XX/pointrtd_epoch_XX_CR_XX.pth`
 
 Once you have a satisfactory checkpoint, create a folder `./checkpoints_pointrtd/` and place your checkpoint file within this folder.

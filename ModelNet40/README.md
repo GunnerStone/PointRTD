@@ -13,7 +13,11 @@ This folder is intended to store the ModelNet40 dataset files after they have be
 After placing the files, the structure of this folder should look like this:
 
 ModelNet40/
+
 ├──airplane/    # Example Category Folder
+
 ├──bathtub/     # Example Category Folder
+
 ├──bed/         # Example Category Folder
+
 ├──...

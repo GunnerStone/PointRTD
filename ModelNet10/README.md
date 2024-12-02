@@ -13,7 +13,11 @@ This folder is intended to store the ModelNet10 dataset files after they have be
 After placing the files, the structure of this folder should look like this:
 
 ModelNet10/
+
 ├──bathtub/    # Example Category Folder
+
 ├──bed/        # Example Category Folder
+
 ├──chair/      # Example Category Folder
+
 ├──...

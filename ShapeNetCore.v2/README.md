@@ -13,9 +13,15 @@ This folder is intended to store the ShapeNetCore.v2 dataset files after they ha
 After placing the files, the structure of this folder should look like this:
 
 ShapeNetCore.v2/
+
 ├──ShapeNetCore.v2/ 
+
 ├──── 02691156/    # Example category folder
+
 ├──── 02828884/    # Example category folder
+
 ├──── 02933112/    # Example category folder
+
 ├──── ...
+
 └──── all.csv
