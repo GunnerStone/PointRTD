@@ -17,9 +17,9 @@ _Preprint Abstract:_ PointRTD introduces a novel corruption-reconstruction pretr
 
 2. Installing Dependencies
 
-Setting up the environment for these algorithms can be tricky due to compatibility issues between various libraries. 
+`conda env create -f environment.yaml`
 
-Below is a tested combination of library versions that are compatible.
+Below is a tested combination of library versions that are compatible. Start here if you are having trouble. 
 
 #### Environment Details
 - **Python**: 3.10.4
