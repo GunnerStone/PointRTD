@@ -56,12 +56,6 @@ Download [ModelNet10](ModelNet10/README.md) and [ModelNet40](ModelNet10/README.m
 
 Make sure these are using the correct path for your desired pretrained model checkpoint file.
 
-
-# Results
-
-| Model     | Pretraining Epochs | Dataset     | Accuracy @ 50 epochs | Accuracy @ 100 epochs | Accuracy @ 150 epochs | Accuracy @ 200 epochs | Accuracy @ 250 epochs | Accuracy @ 300 epochs |
-|-----------|---------------------|-------------|---------------|----------------|----------------|----------------|----------------|----------------|
-| PointMAE  | 50                  | ModelNet10  | 13.66%        | 66.08%         | 52.64%         | 86.45%         | 87.56%         | 89.76%         |
 | PointRTD  | 50                  | ModelNet10  | 87.22%        | 86.89%         | 90.20%         | 91.96%         | **92.73%**     | 92.29%         |
 
  Note: Both PointMAE and PointRTD were pretrained for 50 epochs only on ShapeNetCore.v2.
