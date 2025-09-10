@@ -55,8 +55,3 @@ Download [ModelNet10](ModelNet10/README.md) and [ModelNet40](ModelNet10/README.m
 `train_modelnet10_pointRTD.ipynb` or `train_modelnet40_pointRTD.ipynb`
 
 Make sure these are using the correct path for your desired pretrained model checkpoint file.
-
-| PointRTD  | 50                  | ModelNet10  | 87.22%        | 86.89%         | 90.20%         | 91.96%         | **92.73%**     | 92.29%         |
-
- Note: Both PointMAE and PointRTD were pretrained for 50 epochs only on ShapeNetCore.v2.
- The fine-tuning results on ModelNet10 are shown for various checkpoints during the 300 fine-tuning epochs.
